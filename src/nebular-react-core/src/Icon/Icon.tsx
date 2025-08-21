@@ -42,7 +42,7 @@ const _Icon = React.forwardRef<HTMLDivElement, IconProps>((props, ref) => {
       }
       const iconName = fontIconPackParams.iconClassPrefix
         ? `${fontIconPackParams.iconClassPrefix}-${icon ?? ''}`
-        : icon ?? '';
+        : (icon ?? '');
       iconRef.current.classList.add(iconName);
     }
   };

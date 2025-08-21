@@ -1,6 +1,12 @@
 {
-  "dev": true,
-  "peer": false,
-  "prod": true,
-  "source": ["package.json", "src/*/package.json", "docs/package.json"]
+  "dependencyTypes": [
+    "dev",
+    "prod",
+    "peer"
+  ],
+  "source": [
+    "package.json",
+    "src/*/package.json",
+    "docs/package.json"
+  ]
 }

@@ -280,10 +280,10 @@ const _Select = forwardRef<HTMLDivElement, SelectProps>((props, ref) => {
         multiple
           ? selectedOptions.map((x) => (typeof options[0] === 'string' ? x.value : x))
           : selectedOptions.length > 0
-          ? typeof options[0] === 'string'
-            ? selectedOptions[0].value
-            : selectedOptions[0]
-          : null
+            ? typeof options[0] === 'string'
+              ? selectedOptions[0].value
+              : selectedOptions[0]
+            : null
       );
   };
 

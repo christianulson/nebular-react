@@ -221,7 +221,6 @@ function detachBackdrop(
     return;
   }
 
-  // eslint-disable-next-line prefer-const
   let timeoutId: ReturnType<typeof setTimeout>;
   const finishDetach = () => {
     // It may not be attached to anything in certain cases (e.g. unit tests).

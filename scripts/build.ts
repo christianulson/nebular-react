@@ -1,4 +1,3 @@
-/* eslint-disable no-restricted-syntax */
 /* eslint-disable no-await-in-loop */
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';

@@ -1,4 +1,4 @@
-/* eslint-disable no-restricted-syntax, no-await-in-loop */
+/* eslint-disable no-await-in-loop */
 import path from 'path';
 import fs from 'fs-extra';
 

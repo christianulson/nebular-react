@@ -27,14 +27,14 @@
     "render"
   ],
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0",
-    "@emotion/react": ">=11.9.0",
-    "@emotion/server": ">=11.4.0"
+    "react": ">=19.1.1",
+    "react-dom": ">=19.1.1",
+    "@emotion/react": ">=11.14.0",
+    "@emotion/server": ">=11.11.0"
   },
   "dependencies": {
     "@nebular-react/styles": "0.3.0",
-    "html-react-parser": "5.2.5"
+    "html-react-parser": "5.2.6"
   },
   "devDependencies": {}
 }

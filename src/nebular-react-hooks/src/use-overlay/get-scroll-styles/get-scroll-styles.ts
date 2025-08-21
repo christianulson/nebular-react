@@ -106,7 +106,7 @@ export function supportsScrollBehavior(): boolean {
     } else {
       // At this point we have 3 possibilities: `scrollTo` isn't supported at all, it's
       // supported but it doesn't handle scroll behavior, or it has been polyfilled.
-      // eslint-disable-next-line @typescript-eslint/ban-types
+
       const scrollToFunction: Function | undefined = Element.prototype.scrollTo;
 
       if (scrollToFunction) {
